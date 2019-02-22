@@ -1,13 +1,14 @@
 $timescale 1ms $end
 $scope module logic $end
-$var wire 1 b iogB_0 $end
+$var wire 1 a iogA_0 $end
 $var wire 1 d iogD_2 $end
 $enddefinitions $end
 $dumpvars
-bx b
-bx d
+x a
+x d
 $end
 #0
+1 a
 1 d
 #10
 0 d
