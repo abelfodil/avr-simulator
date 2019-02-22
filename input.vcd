@@ -1,0 +1,27 @@
+$timescale 1ms $end
+$scope module logic $end
+$var wire 8 a iogA $end
+$var wire 8 b iogB $end
+$var wire 8 c iogC $end
+$var wire 8 d iogD $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+bxxxxxxxx a
+bxxxxxxxx b
+bxxxxxxxx c
+bxxxxxxxx d
+$end
+#0
+b00000001 a
+#10
+b00000000 a
+#20
+b00000001 a
+#30
+b00000000 a
+#100
+b00000001 a
+#150
+b00000000 a
+#200
