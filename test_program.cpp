@@ -2,15 +2,15 @@
 
 int main()
 {
-	DDRA = 0x00;
+	DDRA = 0xff;
 	DDRB = 0xff;
 	DDRC = 0xff;
-	DDRD = 0xff;
+	DDRD = 0x00;
 	unsigned long counter = 0;
 
 	while (true) {
-		if (PINA & 0x1) {
-			PORTD = ++counter;
+		if (PIND & 0b100) {
+			PORTA = ++counter;
 		}
 	}
 }
