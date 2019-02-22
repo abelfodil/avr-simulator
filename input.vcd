@@ -3,18 +3,9 @@ $scope module logic $end
 $var wire 1 d iogD_2 $end
 $upscope $end
 $enddefinitions $end
-$dumpvars
-bx d
-$end
-#0
-b1 d
-#10
-b0 d
-#20
-b1 d
-#30
-b0 d
-#100
-b1 d
-#150
-b0 d
+#0 b1 d
+#10 b0 d
+#20 b1 d
+#30 b0 d
+#100 b1 d
+#150 b0 d
